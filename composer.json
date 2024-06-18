@@ -1,0 +1,18 @@
+{
+    "name": "jakgh/laravel-brevo-mailer",
+    "description": "Mailer for Laravel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jakgh\\LaravelBrevoMailer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jak",
+            "email": "giacomojakzoffoli@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
