@@ -3,7 +3,7 @@
 namespace JakGH\LaravelBrevoMailer\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use BrevoService;
+use JakGH\LaravelBrevoMailer\BrevoService;
 
 class BrevoServiceProvider extends ServiceProvider
 {
@@ -14,9 +14,9 @@ class BrevoServiceProvider extends ServiceProvider
     {
         $this->app->bind( BrevoService::class, function () {
 
-            $key = config('brevo.key');
-            $emailFrom = config('brevo.emailFrom');          
-            $options = config('brevo.options', []);
+            $key            = config('brevo.key');
+            $emailFrom      = config('brevo.emailFrom');          
+            $options        = config('brevo.options', []);
 
             $instance = new BrevoService( $key, $options );
 
