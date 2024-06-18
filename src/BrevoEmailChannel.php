@@ -1,6 +1,6 @@
 <?php
 
-namespace JakGH;
+namespace JakGH\LaravelBrevoMailer;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\AnonymousNotifiable;

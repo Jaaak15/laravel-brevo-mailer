@@ -1,7 +1,7 @@
 <?php
 
 
-namespace JakGH;
+namespace JakGH\LaravelBrevoMailer;
 
 final class BrevoEmailMessage
 {

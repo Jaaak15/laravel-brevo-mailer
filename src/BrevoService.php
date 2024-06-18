@@ -1,6 +1,6 @@
 <?php
 
-namespace JakGH;
+namespace JakGH\LaravelBrevoMailer;
 
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Support\Facades\Http;

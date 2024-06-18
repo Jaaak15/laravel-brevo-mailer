@@ -1,9 +1,9 @@
 <?php
 
-namespace JakGH\Providers;
+namespace JakGH\LaravelBrevoMailer\Providers;
 
-use \Illuminate\Support\ServiceProvider;
-use Services\BrevoService;
+use Illuminate\Support\ServiceProvider;
+use BrevoService;
 
 class BrevoServiceProvider extends ServiceProvider
 {
