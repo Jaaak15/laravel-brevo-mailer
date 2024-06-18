@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "JakGH\\LaravelBrevoNotifier\\Providers\\BrevoServiceProvider"
+                "JakGH\\LaravelBrevoMailer\\Providers\\BrevoServiceProvider"
             ]
         }
     }
